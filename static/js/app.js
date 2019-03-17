@@ -96,13 +96,3 @@ function optionChanged(newSample) {
 
 // Initialize the dashboard
 init();
-
-
-function optionChanged(newSample) {
-  // Fetch new data each time a new sample is selected
-  buildCharts(newSample);
-  buildMetadata(newSample);
-}
-
-// Initialize the dashboard
-init();
